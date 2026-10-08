@@ -1,0 +1,51 @@
+---
+import Layout from "@components/Layout.astro";
+import AliasCard from "@components/AliasCard.astro";
+import ShareBar from "@components/ShareBar.astro";
+import { buildDeck } from "@lib/deck";
+
+const site = Astro.site?.toString().replace(/\/+$/, "") ?? "";
+const deck = buildDeck(site);
+const description = `Rolodex of ${deck.ownerDisplayName} aliases — public, confirmed links only.`;
+---
+
+<Layout
+  title={`${deck.ownerDisplayName} · rolodex`}
+  description={description}
+  permalink="/"
+  ogImage="/og/rolodex.png"
+>
+  <main id="main" class="rolodex-shell">
+    <div class="deck-toolbar">
+      <p class="hint">Keys · scroll · swipe. Share is one tap.</p>
+      <ShareBar payload={deck.share} ownerDisplayName={deck.ownerDisplayName} vcardHref="/rolodex.vcf" />
+    </div>
+    <rolodex-deck data-initial={deck.cards[0]?.id ?? ""}>
+      <p class="visually-hidden" data-live aria-live="polite"></p>
+      <div class="deck">
+        {deck.cards.map((card, index) => (
+          <AliasCard
+            card={card}
+            ownerDisplayName={deck.ownerDisplayName}
+            active={index === 0}
+            index={index}
+            total={deck.cards.length}
+          />
+        ))}
+      </div>
+      <ol class="dots">
+        {deck.cards.map((card, index) => (
+          <li>
+            <button
+              type="button"
+              data-dot={card.id}
+              aria-label={`Show ${card.handle}`}
+              aria-current={index === 0 ? "true" : "false"}
+            />
+          </li>
+        ))}
+      </ol>
+    </rolodex-deck>
+  </main>
+  <script src="../islands/rolodex-deck.ts"></script>
+</Layout>

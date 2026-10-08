@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "kind": "profile",
+      "urlTemplate": "https://github.com/{handle}",
+      "check": "github-api",
+      "handlePattern": "^[A-Za-z0-9-]{1,39}$"
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "kind": "profile",
+      "urlTemplate": "https://x.com/{handle}",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9_]{1,15}$"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "kind": "profile",
+      "urlTemplate": "https://www.instagram.com/{handle}/",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9._]{1,30}$"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "kind": "profile",
+      "urlTemplate": "https://www.tiktok.com/@{handle}",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9._]{2,24}$"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "kind": "profile",
+      "urlTemplate": "https://www.youtube.com/@{handle}",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9._-]{3,30}$"
+    },
+    {
+      "id": "soundcloud",
+      "label": "SoundCloud",
+      "kind": "profile",
+      "urlTemplate": "https://soundcloud.com/{handle}",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9_-]{3,25}$"
+    },
+    {
+      "id": "bandcamp",
+      "label": "Bandcamp",
+      "kind": "profile",
+      "urlTemplate": "https://{handle}.bandcamp.com",
+      "check": "http-profile",
+      "handlePattern": "^[a-z0-9-]{3,32}$",
+      "forceLower": true
+    },
+    {
+      "id": "spotify",
+      "label": "Spotify artist",
+      "kind": "profile",
+      "urlTemplate": "https://open.spotify.com/search/{handle}/artists",
+      "check": "manual",
+      "handlePattern": ".+"
+    },
+    {
+      "id": "twitch",
+      "label": "Twitch",
+      "kind": "profile",
+      "urlTemplate": "https://www.twitch.tv/{handle}",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9_]{4,25}$"
+    },
+    {
+      "id": "reddit",
+      "label": "Reddit",
+      "kind": "profile",
+      "urlTemplate": "https://www.reddit.com/user/{handle}",
+      "check": "http-profile",
+      "handlePattern": "^[A-Za-z0-9_-]{3,20}$"
+    },
+    {
+      "id": "npm",
+      "label": "npm",
+      "kind": "package",
+      "urlTemplate": "https://www.npmjs.com/package/{handle}",
+      "check": "npm-registry",
+      "handlePattern": "^[a-z0-9._~-]+$"
+    },
+    {
+      "id": "crates",
+      "label": "crates.io",
+      "kind": "package",
+      "urlTemplate": "https://crates.io/crates/{handle}",
+      "check": "crates-api",
+      "handlePattern": "^[a-z0-9_-]+$",
+      "forceLower": true
+    },
+    {
+      "id": "pypi",
+      "label": "PyPI",
+      "kind": "package",
+      "urlTemplate": "https://pypi.org/project/{handle}/",
+      "check": "pypi-json",
+      "handlePattern": "^[A-Za-z0-9._-]+$"
+    },
+    {
+      "id": "domain-com",
+      "label": ".com",
+      "kind": "domain",
+      "urlTemplate": "https://{handle}.com",
+      "check": "rdap",
+      "handlePattern": "^[a-z0-9-]{1,63}$",
+      "forceLower": true,
+      "tld": "com"
+    },
+    {
+      "id": "domain-dev",
+      "label": ".dev",
+      "kind": "domain",
+      "urlTemplate": "https://{handle}.dev",
+      "check": "rdap",
+      "handlePattern": "^[a-z0-9-]{1,63}$",
+      "forceLower": true,
+      "tld": "dev"
+    },
+    {
+      "id": "domain-io",
+      "label": ".io",
+      "kind": "domain",
+      "urlTemplate": "https://{handle}.io",
+      "check": "rdap",
+      "handlePattern": "^[a-z0-9-]{1,63}$",
+      "forceLower": true,
+      "tld": "io"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+---
+import type { CardModel } from "@lib/deck";
+import StatusPill from "./StatusPill.astro";
+import ShareBar from "./ShareBar.astro";
+
+interface Props {
+  card: CardModel;
+  ownerDisplayName: string;
+  active?: boolean | undefined;
+  index?: number | undefined;
+  total?: number | undefined;
+}
+
+const { card, ownerDisplayName, active = false, index, total } = Astro.props;
+const headingId = `alias-${card.id}`;
+---
+
+<article
+  class:list={["card", active && "is-current"]}
+  data-alias-id={card.id}
+  aria-labelledby={headingId}
+  aria-hidden={active ? "false" : "true"}
+>
+  <header class="card-head">
+    <h2 class="alias glitch-title" id={headingId} data-text={card.handle}>{card.handle}</h2>
+    <span class={`badge badge-${card.confidence}`}>{card.confidence}</span>
+  </header>
+  {
+    typeof index === "number" && typeof total === "number" && (
+      <p class="hint">
+        card {index + 1} / {total}
+      </p>
+    )
+  }
+  <ul class="stats" aria-label="Availability counts">
+    <li><span class="n">{card.stats.him}</span> his</li>
+    <li><span class="n">{card.stats.other}</span> other</li>
+    <li><span class="n">{card.stats.free}</span> free</li>
+    <li><span class="n">{card.stats.unknown}</span> unknown</li>
+  </ul>
+  <div class="variants" aria-label="Spelling variants">
+    {card.variants.map((variant) => (
+      <span class="variant">{variant}</span>
+    ))}
+  </div>
+  <table class="services">
+    <caption class="visually-hidden">Services for {card.handle}</caption>
+    <thead>
+      <tr>
+        <th>Service</th>
+        <th>Handle</th>
+        <th>Status</th>
+        <th class="col-reason">Check</th>
+      </tr>
+    </thead>
+    <tbody>
+      {card.services.map((row) => (
+        <tr>
+          <td>{row.label}</td>
+          <td>
+            {row.url ? (
+              <a href={row.url} rel="noreferrer noopener">
+                {row.handle ?? "profile"}
+              </a>
+            ) : (
+              <span class="muted-link">{row.handle ?? "—"}</span>
+            )}
+          </td>
+          <td>
+            <StatusPill status={row.status} />
+          </td>
+          <td class="col-reason">
+            <span class="reason">
+              {[row.method, row.reason].filter(Boolean).join(" · ") || "not checked"}
+            </span>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <ShareBar payload={card.share} ownerDisplayName={ownerDisplayName} vcardHref={`/a/${card.id}.vcf`} />
+</article>

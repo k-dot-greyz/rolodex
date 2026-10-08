@@ -1,0 +1,37 @@
+---
+import Layout from "@components/Layout.astro";
+import AliasCard from "@components/AliasCard.astro";
+import { buildDeck, findCard } from "@lib/deck";
+
+export function getStaticPaths() {
+  const site = "https://k-dot-greyz.github.io/rolodex";
+  const deck = buildDeck(site);
+  return deck.cards.map((card) => ({ params: { id: card.id } }));
+}
+
+const site = Astro.site?.toString().replace(/\/+$/, "") ?? "";
+const deck = buildDeck(site);
+const id = Astro.params.id ?? "";
+const card = findCard(deck, id);
+if (!card) {
+  throw new Error(`Unknown alias id: ${id}`);
+}
+const noindex = !card.shareable;
+const description = card.share
+  ? card.share.text
+  : `${card.handle} — unconfirmed alias, not in share payloads.`;
+---
+
+<Layout
+  title={`${card.handle} · ${deck.ownerDisplayName} rolodex`}
+  description={description}
+  permalink={`/a/${card.id}`}
+  ogImage={`/og/${card.id}.png`}
+  noindex={noindex}
+>
+  <main id="main" class="rolodex-shell card-page">
+    <a class="back" href={`/#${card.id}`}>← all cards</a>
+    <AliasCard card={card} ownerDisplayName={deck.ownerDisplayName} active={true} />
+  </main>
+  <script src="../../islands/rolodex-deck.ts"></script>
+</Layout>

@@ -1,0 +1,1277 @@
+{
+  "generatedAt": "2026-10-08T03:49:02.567Z",
+  "checker": "rolodex-checker/0.1",
+  "userAgent": "RolodexChecker/0.1 (+https://github.com/k-dot-greyz/rolodex)",
+  "results": [
+    {
+      "platform": "github",
+      "handle": "greyZ",
+      "url": "https://github.com/greyZ",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:10.809Z",
+      "reason": null
+    },
+    {
+      "platform": "x",
+      "handle": "greyZ",
+      "url": "https://x.com/greyZ",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:11.481Z",
+      "reason": null
+    },
+    {
+      "platform": "instagram",
+      "handle": "greyZ",
+      "url": "https://www.instagram.com/greyZ/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:12.004Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "greyZ",
+      "url": "https://www.tiktok.com/@greyZ",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:12.529Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "greyZ",
+      "url": "https://www.youtube.com/@greyZ",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:12.680Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "greyZ",
+      "url": "https://soundcloud.com/greyZ",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:13.299Z",
+      "reason": null
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "greyz",
+      "url": "https://greyz.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:13.699Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "greyZ",
+      "url": "https://open.spotify.com/search/greyZ/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:13.699Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "greyZ",
+      "url": "https://www.twitch.tv/greyZ",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:13.795Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "greyZ",
+      "url": "https://www.reddit.com/user/greyZ",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:14.182Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "greyz",
+      "url": "https://www.npmjs.com/package/greyz",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:14.466Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "greyz",
+      "url": "https://crates.io/crates/greyz",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:14.884Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "greyZ",
+      "url": "https://pypi.org/project/greyZ/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:15.279Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "greyz",
+      "url": "https://greyz.com",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:15.620Z",
+      "reason": null
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "greyz",
+      "url": "https://greyz.dev",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:16.061Z",
+      "reason": null
+    },
+    {
+      "platform": "domain-io",
+      "handle": "greyz",
+      "url": "https://greyz.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:16.168Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "k-grey-Z",
+      "url": "https://github.com/k-grey-Z",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:16.638Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "x",
+      "handle": "kgreyz",
+      "url": "https://x.com/kgreyz",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:17.338Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "instagram",
+      "handle": "k.greyZ",
+      "url": "https://www.instagram.com/k.greyZ/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:18.064Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "k.greyZ",
+      "url": "https://www.tiktok.com/@k.greyZ",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:18.749Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "k.greyZ",
+      "url": "https://www.youtube.com/@k.greyZ",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:18.855Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "k-grey-Z",
+      "url": "https://soundcloud.com/k-grey-Z",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:19.633Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "k-grey-z",
+      "url": "https://k-grey-z.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:20.051Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "k.greyZ",
+      "url": "https://open.spotify.com/search/k.greyZ/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:20.051Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "kgreyz",
+      "url": "https://www.twitch.tv/kgreyz",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:20.167Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "k-grey-Z",
+      "url": "https://www.reddit.com/user/k-grey-Z",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:20.524Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "kgreyz",
+      "url": "https://www.npmjs.com/package/kgreyz",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:20.817Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "kgreyz",
+      "url": "https://crates.io/crates/kgreyz",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:21.230Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "k.greyZ",
+      "url": "https://pypi.org/project/k.greyZ/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:21.630Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "kgreyz",
+      "url": "https://kgreyz.com",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:21.968Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "kgreyz",
+      "url": "https://kgreyz.dev",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:22.445Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-io",
+      "handle": "kgreyz",
+      "url": "https://kgreyz.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:22.519Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "k-dot-greyz",
+      "url": "https://github.com/k-dot-greyz",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:23.011Z",
+      "reason": null
+    },
+    {
+      "platform": "x",
+      "handle": "kdotgreyz",
+      "url": "https://x.com/kdotgreyz",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:23.665Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "instagram",
+      "handle": "kdotgreyz",
+      "url": "https://www.instagram.com/kdotgreyz/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:24.245Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "kdotgreyz",
+      "url": "https://www.tiktok.com/@kdotgreyz",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:25.656Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "k-dot-greyz",
+      "url": "https://www.youtube.com/@k-dot-greyz",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:25.956Z",
+      "reason": null
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "k-dot-greyz",
+      "url": "https://soundcloud.com/k-dot-greyz",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:26.542Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "k-dot-greyz",
+      "url": "https://k-dot-greyz.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:26.940Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "k-dot-greyz",
+      "url": "https://open.spotify.com/search/k-dot-greyz/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:26.940Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "kdotgreyz",
+      "url": "https://www.twitch.tv/kdotgreyz",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:27.024Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "k-dot-greyz",
+      "url": "https://www.reddit.com/user/k-dot-greyz",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:27.420Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "k-dot-greyz",
+      "url": "https://www.npmjs.com/package/k-dot-greyz",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:27.754Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "k-dot-greyz",
+      "url": "https://crates.io/crates/k-dot-greyz",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:28.115Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "k-dot-greyz",
+      "url": "https://pypi.org/project/k-dot-greyz/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:28.549Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "k-dot-greyz",
+      "url": "https://k-dot-greyz.com",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:28.892Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "k-dot-greyz",
+      "url": "https://k-dot-greyz.dev",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:29.324Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-io",
+      "handle": "k-dot-greyz",
+      "url": "https://k-dot-greyz.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:29.523Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "KasparsGreizis",
+      "url": "https://github.com/KasparsGreizis",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:29.880Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "x",
+      "handle": "KasparsGreizis",
+      "url": "https://x.com/KasparsGreizis",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:30.580Z",
+      "reason": null
+    },
+    {
+      "platform": "instagram",
+      "handle": "KasparsGreizis",
+      "url": "https://www.instagram.com/KasparsGreizis/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:31.257Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "KasparsGreizis",
+      "url": "https://www.tiktok.com/@KasparsGreizis",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:33.121Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "KasparsGreizis",
+      "url": "https://www.youtube.com/@KasparsGreizis",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:33.300Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "KasparsGreizis",
+      "url": "https://soundcloud.com/KasparsGreizis",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:34.005Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "kasparsgreizis",
+      "url": "https://kasparsgreizis.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:34.399Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "KasparsGreizis",
+      "url": "https://open.spotify.com/search/KasparsGreizis/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:34.399Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "KasparsGreizis",
+      "url": "https://www.twitch.tv/KasparsGreizis",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:34.483Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "KasparsGreizis",
+      "url": "https://www.reddit.com/user/KasparsGreizis",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:34.912Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "kasparsgreizis",
+      "url": "https://www.npmjs.com/package/kasparsgreizis",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:35.152Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "kasparsgreizis",
+      "url": "https://crates.io/crates/kasparsgreizis",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:35.762Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "KasparsGreizis",
+      "url": "https://pypi.org/project/KasparsGreizis/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:35.979Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "kasparsgreizis",
+      "url": "https://kasparsgreizis.com",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:36.283Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "kasparsgreizis",
+      "url": "https://kasparsgreizis.dev",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:36.819Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-io",
+      "handle": "kasparsgreizis",
+      "url": "https://kasparsgreizis.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:36.873Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "greyZxMusic",
+      "url": "https://github.com/greyZxMusic",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:37.342Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "x",
+      "handle": "greyZxMusic",
+      "url": "https://x.com/greyZxMusic",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:38.367Z",
+      "reason": null
+    },
+    {
+      "platform": "instagram",
+      "handle": "greyZxMusic",
+      "url": "https://www.instagram.com/greyZxMusic/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:38.963Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "greyZxMusic",
+      "url": "https://www.tiktok.com/@greyZxMusic",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:39.478Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "greyZxMusic",
+      "url": "https://www.youtube.com/@greyZxMusic",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:39.591Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "greyZxMusic",
+      "url": "https://soundcloud.com/greyZxMusic",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:40.254Z",
+      "reason": null
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "greyzxmusic",
+      "url": "https://greyzxmusic.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:40.608Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "greyZxMusic",
+      "url": "https://open.spotify.com/search/greyZxMusic/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:40.608Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "greyZxMusic",
+      "url": "https://www.twitch.tv/greyZxMusic",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:40.708Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "greyZxMusic",
+      "url": "https://www.reddit.com/user/greyZxMusic",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:41.071Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "greyzmusic",
+      "url": "https://www.npmjs.com/package/greyzmusic",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:41.359Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "greyzxmusic",
+      "url": "https://crates.io/crates/greyzxmusic",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:41.989Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "greyZxMusic",
+      "url": "https://pypi.org/project/greyZxMusic/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:42.216Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "greyzxmusic",
+      "url": "https://greyzxmusic.com",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:42.572Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "greyzxmusic",
+      "url": "https://greyzxmusic.dev",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:42.966Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-io",
+      "handle": "greyzxmusic",
+      "url": "https://greyzxmusic.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:43.156Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "damn-fractal",
+      "url": "https://github.com/damn-fractal",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:43.548Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "x",
+      "handle": "damnfractal",
+      "url": "https://x.com/damnfractal",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:44.228Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "instagram",
+      "handle": "damn.fractal",
+      "url": "https://www.instagram.com/damn.fractal/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:44.867Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "damn.fractal",
+      "url": "https://www.tiktok.com/@damn.fractal",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:45.318Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "damn.fractal",
+      "url": "https://www.youtube.com/@damn.fractal",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:45.484Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "damn-fractal",
+      "url": "https://soundcloud.com/damn-fractal",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:46.222Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "damn-fractal",
+      "url": "https://damn-fractal.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:46.499Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "damn.fractal",
+      "url": "https://open.spotify.com/search/damn.fractal/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:46.499Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "damnfractal",
+      "url": "https://www.twitch.tv/damnfractal",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:46.667Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "damn-fractal",
+      "url": "https://www.reddit.com/user/damn-fractal",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:47.080Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "damn.fractal",
+      "url": "https://www.npmjs.com/package/damn.fractal",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:47.378Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "damnfractal",
+      "url": "https://crates.io/crates/damnfractal",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:48.002Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "damn.fractal",
+      "url": "https://pypi.org/project/damn.fractal/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:48.185Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "damnfractal",
+      "url": "https://damnfractal.com",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:48.489Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "damnfractal",
+      "url": "https://damnfractal.dev",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:49.011Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-io",
+      "handle": "damnfractal",
+      "url": "https://damnfractal.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:49.067Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "al-paca",
+      "url": "https://github.com/al-paca",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:49.551Z",
+      "reason": null
+    },
+    {
+      "platform": "x",
+      "handle": "alpaca",
+      "url": "https://x.com/alpaca",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:50.632Z",
+      "reason": null
+    },
+    {
+      "platform": "instagram",
+      "handle": "al.paca",
+      "url": "https://www.instagram.com/al.paca/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:51.103Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "al.paca",
+      "url": "https://www.tiktok.com/@al.paca",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:52.503Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "al.paca",
+      "url": "https://www.youtube.com/@al.paca",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:52.628Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "al-paca",
+      "url": "https://soundcloud.com/al-paca",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:53.283Z",
+      "reason": null
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "al-paca",
+      "url": "https://al-paca.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:53.688Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "al.paca",
+      "url": "https://open.spotify.com/search/al.paca/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:48:53.688Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "alpaca",
+      "url": "https://www.twitch.tv/alpaca",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:53.753Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "al-paca",
+      "url": "https://www.reddit.com/user/al-paca",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:54.175Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "al.paca",
+      "url": "https://www.npmjs.com/package/al.paca",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:48:54.495Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "alpaca",
+      "url": "https://crates.io/crates/alpaca",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:48:55.052Z",
+      "reason": null
+    },
+    {
+      "platform": "pypi",
+      "handle": "al.paca",
+      "url": "https://pypi.org/project/al.paca/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:48:55.270Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "alpaca",
+      "url": "https://alpaca.com",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:55.600Z",
+      "reason": null
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "alpaca",
+      "url": "https://alpaca.dev",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:56.071Z",
+      "reason": null
+    },
+    {
+      "platform": "domain-io",
+      "handle": "alpaca",
+      "url": "https://alpaca.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:48:56.159Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "github",
+      "handle": "glitchedstardust",
+      "url": "https://github.com/glitchedstardust",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "github-api",
+      "checkedAt": "2026-10-08T03:48:56.631Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "instagram",
+      "handle": "glitchedstardust",
+      "url": "https://www.instagram.com/glitchedstardust/",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:57.368Z",
+      "reason": null
+    },
+    {
+      "platform": "tiktok",
+      "handle": "glitchedstardust",
+      "url": "https://www.tiktok.com/@glitchedstardust",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:58.832Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "youtube",
+      "handle": "glitchedstardust",
+      "url": "https://www.youtube.com/@glitchedstardust",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:59.012Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "soundcloud",
+      "handle": "glitchedstardust",
+      "url": "https://soundcloud.com/glitchedstardust",
+      "availability": "unknown",
+      "httpStatus": 404,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:48:59.736Z",
+      "reason": "http-404-untrusted"
+    },
+    {
+      "platform": "bandcamp",
+      "handle": "glitchedstardust",
+      "url": "https://glitchedstardust.bandcamp.com",
+      "availability": "unknown",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:49:00.050Z",
+      "reason": "bot-challenge"
+    },
+    {
+      "platform": "spotify",
+      "handle": "glitchedstardust",
+      "url": "https://open.spotify.com/search/glitchedstardust/artists",
+      "availability": "unknown",
+      "httpStatus": null,
+      "method": "manual",
+      "checkedAt": "2026-10-08T03:49:00.050Z",
+      "reason": "no-public-api"
+    },
+    {
+      "platform": "twitch",
+      "handle": "glitchedstardust",
+      "url": "https://www.twitch.tv/glitchedstardust",
+      "availability": "taken",
+      "httpStatus": 200,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:49:00.168Z",
+      "reason": null
+    },
+    {
+      "platform": "reddit",
+      "handle": "glitchedstardust",
+      "url": "https://www.reddit.com/user/glitchedstardust",
+      "availability": "unknown",
+      "httpStatus": 403,
+      "method": "http-profile",
+      "checkedAt": "2026-10-08T03:49:00.558Z",
+      "reason": "rate-limited"
+    },
+    {
+      "platform": "npm",
+      "handle": "glitchedstardust",
+      "url": "https://www.npmjs.com/package/glitchedstardust",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "npm-registry",
+      "checkedAt": "2026-10-08T03:49:00.839Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "crates",
+      "handle": "glitchedstardust",
+      "url": "https://crates.io/crates/glitchedstardust",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "crates-api",
+      "checkedAt": "2026-10-08T03:49:01.261Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "pypi",
+      "handle": "glitchedstardust",
+      "url": "https://pypi.org/project/glitchedstardust/",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "pypi-json",
+      "checkedAt": "2026-10-08T03:49:01.677Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-com",
+      "handle": "glitchedstardust",
+      "url": "https://glitchedstardust.com",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:49:02.066Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-dev",
+      "handle": "glitchedstardust",
+      "url": "https://glitchedstardust.dev",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:49:02.456Z",
+      "reason": "not-found"
+    },
+    {
+      "platform": "domain-io",
+      "handle": "glitchedstardust",
+      "url": "https://glitchedstardust.io",
+      "availability": "free",
+      "httpStatus": 404,
+      "method": "rdap",
+      "checkedAt": "2026-10-08T03:49:02.567Z",
+      "reason": "not-found"
+    }
+  ]
+}
