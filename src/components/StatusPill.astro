@@ -1,0 +1,25 @@
+---
+import type { DisplayStatus } from "@lib/schema";
+
+interface Props {
+  status: DisplayStatus;
+}
+
+const labels: Record<DisplayStatus, string> = {
+  "taken-by-him": "his",
+  "taken-by-other": "other",
+  free: "free",
+  unknown: "unknown",
+};
+
+const classes: Record<DisplayStatus, string> = {
+  "taken-by-him": "pill pill-him",
+  "taken-by-other": "pill pill-other",
+  free: "pill pill-free",
+  unknown: "pill pill-unknown",
+};
+
+const { status } = Astro.props;
+---
+
+<span class={classes[status]}>{labels[status]}</span>

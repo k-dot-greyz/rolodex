@@ -1,0 +1,73 @@
+{
+  "canonicalId": "human:k-dot-greyz",
+  "ownerDisplayName": "Kaspars Greizis",
+  "aliases": [
+    {
+      "id": "greyz",
+      "handle": "greyZ",
+      "confidence": "confirmed",
+      "public": true,
+      "kind": "handle"
+    },
+    {
+      "id": "k-greyz",
+      "handle": "k.greyZ",
+      "confidence": "probable",
+      "public": false,
+      "kind": "handle"
+    },
+    {
+      "id": "k-dot-greyz",
+      "handle": "k-dot-greyz",
+      "confidence": "confirmed",
+      "public": true,
+      "kind": "handle"
+    },
+    {
+      "id": "kaspars-greizis",
+      "handle": "Kaspars Greizis",
+      "confidence": "confirmed",
+      "public": true,
+      "kind": "legal-name"
+    },
+    {
+      "id": "greyzxmusic",
+      "handle": "greyZxMusic",
+      "confidence": "unconfirmed",
+      "public": false,
+      "kind": "artist"
+    },
+    {
+      "id": "damn-fractal",
+      "handle": "damn.fractal",
+      "confidence": "unconfirmed",
+      "public": false,
+      "kind": "handle"
+    },
+    {
+      "id": "al-paca",
+      "handle": "al.paca",
+      "confidence": "unconfirmed",
+      "public": false,
+      "kind": "handle"
+    },
+    {
+      "id": "glitched-stardust",
+      "handle": "glitched stardust",
+      "confidence": "unconfirmed",
+      "public": false,
+      "kind": "phrase"
+    }
+  ],
+  "entries": [
+    {
+      "handle": "k-dot-greyz",
+      "platform": "github",
+      "profileUrl": "https://github.com/k-dot-greyz",
+      "confidence": "confirmed",
+      "evidenceUrls": ["https://github.com/k-dot-greyz"],
+      "firstSeen": "2024-09-09T00:00:00Z",
+      "aliasId": "k-dot-greyz"
+    }
+  ]
+}

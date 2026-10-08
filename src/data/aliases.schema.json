@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/k-dot-greyz/rolodex/src/data/aliases.schema.json",
+  "title": "Rolodex alias index",
+  "description": "Swap-in contract for the alias sweep. Replacing aliases.json is enough to hydrate the app. Extra fields are ignored.",
+  "type": "object",
+  "required": ["canonicalId", "entries"],
+  "additionalProperties": true,
+  "properties": {
+    "canonicalId": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable person id, e.g. human:k-dot-greyz"
+    },
+    "ownerDisplayName": { "type": "string" },
+    "aliases": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/alias" }
+    },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "confidence": {
+      "type": "string",
+      "enum": ["confirmed", "probable", "unconfirmed"]
+    },
+    "alias": {
+      "type": "object",
+      "required": ["id", "handle", "confidence"],
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "handle": { "type": "string", "minLength": 1 },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "public": {
+          "type": "boolean",
+          "description": "If true, an unconfirmed alias may appear in share payloads. Default false."
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["handle", "legal-name", "artist", "phrase"]
+        }
+      }
+    },
+    "entry": {
+      "type": "object",
+      "required": ["handle", "platform", "confidence", "evidenceUrls", "firstSeen"],
+      "additionalProperties": true,
+      "properties": {
+        "handle": { "type": "string", "minLength": 1 },
+        "platform": { "type": "string", "minLength": 1 },
+        "profileUrl": {
+          "type": ["string", "null"],
+          "description": "Omit or null until a real public URL is known. Do not invent."
+        },
+        "confidence": { "$ref": "#/$defs/confidence" },
+        "evidenceUrls": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "firstSeen": { "type": "string" },
+        "aliasId": { "type": "string" }
+      }
+    }
+  }
+}

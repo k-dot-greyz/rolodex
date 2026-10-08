@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#0A0A0A"/>
+  <path d="M4 4 h8 v1.5 H5.5 V12 H4 z" fill="#00fff9"/>
+  <path d="M28 28 h-8 v-1.5 H26.5 V20 H28 z" fill="#ff2d6f"/>
+  <text x="7" y="22" fill="#F0F0F0" font-family="ui-monospace, monospace" font-size="12">gZ</text>
+</svg>

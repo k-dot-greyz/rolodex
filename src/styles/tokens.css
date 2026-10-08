@@ -1,0 +1,28 @@
+:root {
+  --bg: #0a0a0a;
+  --text: #f0f0f0;
+  --body: #c4d4e8;
+  --muted: #8b919a;
+  --cyan: #00fff9;
+  --magenta: #ff2d6f;
+  --violet: #bf5fff;
+  --amber: #ffb400;
+  --glitch: #be00ff;
+  --split-red: rgba(255, 0, 0, 0.55);
+  --split-cyan: rgba(0, 255, 255, 0.55);
+  --hairline: #333333;
+  --card: #0f1923;
+  --panel: #111d2e;
+  --surface: #0d1420;
+  --border: #1a2a3f;
+  --amber-bg: rgba(255, 180, 0, 0.15);
+  --cyan-bg: rgba(0, 255, 249, 0.12);
+  --magenta-bg: rgba(255, 45, 111, 0.14);
+  --violet-bg: rgba(191, 95, 255, 0.14);
+  --muted-bg: rgba(139, 145, 154, 0.12);
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  --font-code: "Fira Code", "JetBrains Mono", ui-monospace, monospace;
+  --radius: 6px;
+  --focus: 2px solid var(--cyan);
+}

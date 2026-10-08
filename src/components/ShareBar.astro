@@ -1,0 +1,53 @@
+---
+import { qrSvg } from "@lib/qr";
+import { toVCard } from "@lib/vcard";
+import type { SharePayload } from "@lib/share";
+
+interface Props {
+  payload: SharePayload | null;
+  vcardHref?: string | undefined;
+  ownerDisplayName: string;
+}
+
+const { payload, vcardHref, ownerDisplayName } = Astro.props;
+const qr = payload ? qrSvg(payload.url, { size: 112 }) : null;
+const vcf = payload
+  ? toVCard(payload, { ownerDisplayName, rev: "20261008T000000Z" })
+  : null;
+const downloadName =
+  payload?.kind === "rolodex" ? "greyz-rolodex.vcf" : `${payload?.id}.vcf`;
+---
+
+{
+  payload ? (
+    <div class="share-bar" data-share-root>
+      <div class="share-actions">
+        <button
+          class="btn"
+          type="button"
+          data-share-button
+          data-share-url={payload.url}
+          data-share-title={payload.title}
+          data-share-text={payload.text}
+        >
+          Share
+        </button>
+        <a
+          class="btn btn-magenta"
+          href={vcardHref ?? `data:text/vcard;charset=utf-8,${encodeURIComponent(vcf ?? "")}`}
+          download={downloadName}
+        >
+          vCard
+        </a>
+      </div>
+      {qr && (
+        <figure class="qr">
+          <Fragment set:html={qr} />
+          <figcaption>in person</figcaption>
+        </figure>
+      )}
+    </div>
+  ) : (
+    <p class="hint">This alias is unconfirmed, so it is not included in share payloads.</p>
+  )
+}
