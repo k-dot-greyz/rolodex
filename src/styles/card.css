@@ -367,6 +367,10 @@ rolodex-deck .card.is-leaving {
   .qr {
     margin-left: 0;
   }
+
+  .deck-toolbar .qr {
+    display: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
