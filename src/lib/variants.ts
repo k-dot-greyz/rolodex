@@ -17,6 +17,28 @@ export function generateVariants(handle: string): string[] {
   return buildVariantSet(handle).variants;
 }
 
+/** UI subset: original + separators / x-joins, without shouting duplicates. */
+export function displayVariants(variants: readonly string[]): string[] {
+  if (variants.length === 0) return [];
+  const original = variants[0] ?? "";
+  const out: string[] = [];
+  const seenLower = new Set<string>();
+  for (const variant of variants) {
+    const lower = variant.toLowerCase();
+    if (variant === original) {
+      out.push(variant);
+      seenLower.add(lower);
+      continue;
+    }
+    const isShouting = variant === variant.toUpperCase() && variant !== lower;
+    if (isShouting) continue;
+    if (seenLower.has(lower)) continue;
+    seenLower.add(lower);
+    out.push(variant);
+  }
+  return out;
+}
+
 export function buildVariantSet(handle: string): VariantSet {
   const original = handle.trim();
   if (!original) {

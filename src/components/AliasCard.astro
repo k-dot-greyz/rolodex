@@ -38,6 +38,7 @@ const headingId = `alias-${card.id}`;
     <li><span class="n">{card.stats.free}</span> free</li>
     <li><span class="n">{card.stats.unknown}</span> unknown</li>
   </ul>
+  <ShareBar payload={card.share} ownerDisplayName={ownerDisplayName} vcardHref={`/a/${card.id}.vcf`} />
   <div class="variants" aria-label="Spelling variants">
     {card.variants.map((variant) => (
       <span class="variant">{variant}</span>
@@ -78,5 +79,4 @@ const headingId = `alias-${card.id}`;
       ))}
     </tbody>
   </table>
-  <ShareBar payload={card.share} ownerDisplayName={ownerDisplayName} vcardHref={`/a/${card.id}.vcf`} />
 </article>

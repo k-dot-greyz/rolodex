@@ -15,6 +15,16 @@
   margin-bottom: 1rem;
 }
 
+.deck-toolbar .dots {
+  margin: 0;
+}
+
+.deck-toolbar .share-bar {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .hint {
   margin: 0;
   color: var(--muted);

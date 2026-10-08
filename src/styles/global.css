@@ -158,13 +158,13 @@ a:hover {
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-  z-index: 30;
-  padding: 0.55rem 0.85rem;
+  z-index: 40;
+  padding: 0.65rem 0.95rem;
   background: var(--panel);
-  border: 1px solid var(--border);
+  border: 1px solid var(--cyan);
   color: var(--text);
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   opacity: 0;
   transform: translateY(0.4rem);
   pointer-events: none;

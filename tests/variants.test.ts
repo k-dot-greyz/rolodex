@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { generateVariants, tokenize, serviceHandle } from "@lib/variants";
+import {
+  displayVariants,
+  generateVariants,
+  tokenize,
+  serviceHandle,
+} from "@lib/variants";
 
 describe("tokenize", () => {
   it("keeps a single token", () => {
@@ -58,6 +63,13 @@ describe("generateVariants", () => {
 
   it("does not explode past the cap", () => {
     expect(generateVariants("greyZxMusic").length).toBeLessThanOrEqual(48);
+  });
+
+  it("displayVariants drops shouting duplicates but keeps the original", () => {
+    const shown = displayVariants(generateVariants("greyZ"));
+    expect(shown[0]).toBe("greyZ");
+    expect(shown).toContain("grey-z");
+    expect(shown).not.toContain("GREYZ");
   });
 });
 

@@ -16,11 +16,23 @@ const description = `Rolodex of ${deck.ownerDisplayName} aliases — public, con
   ogImage="/og/rolodex.png"
 >
   <main id="main" class="rolodex-shell">
-    <div class="deck-toolbar">
-      <p class="hint">Keys · scroll · swipe. Share is one tap.</p>
-      <ShareBar payload={deck.share} ownerDisplayName={deck.ownerDisplayName} vcardHref="/rolodex.vcf" />
-    </div>
     <rolodex-deck data-initial={deck.cards[0]?.id ?? ""}>
+      <div class="deck-toolbar">
+        <p class="hint">Keys · scroll · swipe. Share is one tap.</p>
+        <ol class="dots">
+          {deck.cards.map((card, index) => (
+            <li>
+              <button
+                type="button"
+                data-dot={card.id}
+                aria-label={`Show ${card.handle}`}
+                aria-current={index === 0 ? "true" : "false"}
+              />
+            </li>
+          ))}
+        </ol>
+        <ShareBar payload={deck.share} ownerDisplayName={deck.ownerDisplayName} vcardHref="/rolodex.vcf" />
+      </div>
       <p class="visually-hidden" data-live aria-live="polite"></p>
       <div class="deck">
         {deck.cards.map((card, index) => (
@@ -33,18 +45,6 @@ const description = `Rolodex of ${deck.ownerDisplayName} aliases — public, con
           />
         ))}
       </div>
-      <ol class="dots">
-        {deck.cards.map((card, index) => (
-          <li>
-            <button
-              type="button"
-              data-dot={card.id}
-              aria-label={`Show ${card.handle}`}
-              aria-current={index === 0 ? "true" : "false"}
-            />
-          </li>
-        ))}
-      </ol>
     </rolodex-deck>
   </main>
   <script src="../islands/rolodex-deck.ts"></script>

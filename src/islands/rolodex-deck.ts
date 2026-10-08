@@ -137,7 +137,7 @@ function showToast(message: string): void {
   if (!(toast instanceof HTMLElement)) return;
   toast.textContent = message;
   toast.classList.add("is-on");
-  window.setTimeout(() => toast.classList.remove("is-on"), 1600);
+  window.setTimeout(() => toast.classList.remove("is-on"), 2400);
 }
 
 async function share(button: HTMLButtonElement): Promise<void> {
@@ -155,17 +155,33 @@ async function share(button: HTMLButtonElement): Promise<void> {
         return;
       }
     }
-    await navigator.clipboard.writeText(url);
+    await copyText(url);
     showToast("Link copied");
   } catch (error) {
     if (error instanceof DOMException && error.name === "AbortError") return;
     try {
-      await navigator.clipboard.writeText(url);
+      await copyText(url);
       showToast("Link copied");
     } catch {
       showToast("Could not share");
     }
   }
+}
+
+async function copyText(value: string): Promise<void> {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(value);
+    return;
+  }
+  const input = document.createElement("textarea");
+  input.value = value;
+  input.setAttribute("readonly", "");
+  input.style.position = "fixed";
+  input.style.left = "-9999px";
+  document.body.append(input);
+  input.select();
+  document.execCommand("copy");
+  input.remove();
 }
 
 document.addEventListener("click", (event) => {

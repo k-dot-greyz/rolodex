@@ -14,7 +14,7 @@ import {
   type StatusFile,
   type StatusResult,
 } from "./schema";
-import { generateVariants, serviceHandle } from "./variants";
+import { displayVariants, generateVariants, serviceHandle } from "./variants";
 import {
   countStatuses,
   statusKey,
@@ -112,7 +112,7 @@ function buildCard(input: {
   ownerDisplayName: string;
 }): CardModel {
   const { alias, index, services, statusMap, site, ownerDisplayName } = input;
-  const variants = generateVariants(alias.handle);
+  const variants = displayVariants(generateVariants(alias.handle));
   const rows: ServiceRow[] = services.map((service) => {
     const claim = findClaim(index.entries, alias, service.id);
     const handle =
