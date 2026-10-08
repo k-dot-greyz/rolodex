@@ -156,8 +156,8 @@ a:hover {
 
 .toast {
   position: fixed;
+  top: 1rem;
   right: 1rem;
-  bottom: 1rem;
   z-index: 40;
   padding: 0.65rem 0.95rem;
   background: var(--panel);
